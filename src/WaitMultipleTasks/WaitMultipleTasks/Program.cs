@@ -1,7 +1,9 @@
-# WaitMultipleTasks  
-A sample how to implement a way to wait multiple tasks in C#  
-  
-```csharp
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WaitMultipleTasks
+{
     class Program
     {
         static void Main(string[] args)
@@ -86,5 +88,4 @@ A sample how to implement a way to wait multiple tasks in C#
             return delayInterval;
         }
     }
-```  
-  
+}
